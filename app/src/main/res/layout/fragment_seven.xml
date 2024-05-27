@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".screens.SevenFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="350dp"
+        android:layout_height="337dp"
+        android:layout_marginTop="88dp"
+        android:src="@drawable/seven"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/lemon"
+        android:text="Estadísticas del paciente para un mejor seguimiento"
+        android:textColor="@color/Eletric_Indigo"
+        android:textFontWeight="1000"
+        android:textSize="23sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/lexend"
+        android:gravity="center"
+        android:text="Visualiza tu progreso de salud a lo largo del tiempo. Estadísticas detalladas te brindan información valiosa para tomar decisiones informadas sobre tu bienestar."
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/tvNext7"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="670dp"
+        android:backgroundTint="@color/Eletric_Indigo"
+        android:text="CONTINUAR"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        android:fontFamily="@font/lemon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="@color/Eletric_Indigo"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/tvFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="754dp"
+        style="?attr/materialButtonOutlinedStyle"
+        android:backgroundTint="@color/white"
+        android:text="OMITIR"
+        android:textColor="@color/Eletric_Indigo"
+        android:fontFamily="@font/lemon"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:strokeColor="@color/white" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

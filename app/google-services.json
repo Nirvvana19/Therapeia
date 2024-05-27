@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "464538222628",
+    "firebase_url": "https://therapeia-bd8d4-default-rtdb.firebaseio.com",
+    "project_id": "therapeia-bd8d4",
+    "storage_bucket": "therapeia-bd8d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464538222628:android:5bc3e490649bb1f79518b1",
+        "android_client_info": {
+          "package_name": "com.example.chat_therapeia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs5-ZfEVoX2mcCM9Nzymxlvilb43n5HqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464538222628:android:f1d8125349a384539518b1",
+        "android_client_info": {
+          "package_name": "com.example.therapeia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs5-ZfEVoX2mcCM9Nzymxlvilb43n5HqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464538222628:android:d899950daa4bfc649518b1",
+        "android_client_info": {
+          "package_name": "com.firebase.therapeia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs5-ZfEVoX2mcCM9Nzymxlvilb43n5HqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

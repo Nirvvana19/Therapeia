@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Menu_panel"
+        android:title="@string/Menu_panel"
+        android:icon="@drawable/ic_dashboard"
+        />
+    <item
+        android:id="@+id/Menu_medicamento"
+        android:title="Medicamentos"
+        android:icon="@drawable/ic_medicamento"
+        />
+    <item
+        android:id="@+id/Menu_alarma"
+        android:title="Alarma"
+        android:icon="@drawable/ic_alarma"
+        />
+    <item
+        android:id="@+id/Menu_chat"
+        android:title="chat"
+        android:icon="@drawable/ic_chat"
+        />
+    <item
+        android:id="@+id/Menu_cuenta"
+        android:title="@string/Menu_cuenta"
+        android:icon="@drawable/ic_cuenta"
+        />
+</menu>

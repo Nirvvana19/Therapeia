@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Sign_Up_Chat"
+    tools:ignore="MissingDefaultResource">
+
+
+    <ImageView
+        android:layout_width="412dp"
+        android:layout_height="361dp"
+        android:layout_marginBottom="600dp"
+        android:src="@drawable/intento_2" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:src="@drawable/intento_1"
+        android:layout_marginTop="315dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:layout_marginBottom="60dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/lemon"
+            android:text="@string/label_sign_up"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:background="@color/platino"
+            android:fontFamily="@font/lexend"
+            android:hint="@string/enter_name"
+            android:inputType="text"
+            android:padding="12dp"
+            android:textColor="@color/Onix" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:background="@color/platino"
+            android:fontFamily="@font/lexend"
+            android:hint="@string/enter_email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textColor="@color/Onix" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:background="@color/platino"
+            android:fontFamily="@font/lexend"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColor="@color/Onix" />
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:background="@color/platino"
+            android:fontFamily="@font/lexend"
+            android:hint="@string/enter_confirm_password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColor="@color/Onix" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/Cakhi"
+            android:fontFamily="@font/lexend"
+            android:text="@string/btn_sign_up"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:backgroundTint="@color/Cakhi"
+            android:text="@string/btn_login"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lexend"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</FrameLayout>

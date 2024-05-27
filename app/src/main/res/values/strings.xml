@@ -1,0 +1,619 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Therapeia</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="enter_name">Ingrese su nombre completo</string>
+    <string name="enter_email">Ingrese su correo electronico</string>
+    <string name="type_message">Type Message</string>
+    <string name="label_sign_up">¡Registrate!</string>
+    <string name="btn_sign_up">Registrarse</string>
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="btn_save">Save</string>
+    <string name="label_sign_in">Sign In</string>
+    <string name="label_message">Message</string>
+    <string name="label_profile">Profile</string>
+    <string name="enter_password">Ingrese su contraseña</string>
+    <string name="enter_confirm_password">Confirme su contraseña</string>
+    <string name="action_settings">Cerrar Sesion</string>
+
+    <string name="Menu_panel">Panel</string>
+    <string name="Menu_cuenta">Cuenta</string>
+    <string name="Titulo_RL_Doctor">Titulo</string>
+    <string name="Txt_rol">Por favor elija un rol</string>
+    <string name="Btn_rol_doctor">Doctor</string>
+    <string name="Btn_rol_paciente">Paciente</string>
+    <string name="TxtRegistroDoctor">Registro de doctor</string>
+    <string name="Et_nombre_doctor">Nombres</string>
+    <string name="Et_email_doctor">Email</string>
+    <string name="Et_password_doctor">Contraseña</string>
+    <string name="Et_R_password_doctor">Repita la contraseña</string>
+    <string name="Btn_registrar_doctor">Registrarme</string>
+    <string name="CerrarSesionDoctor">Cerrar sesión</string>
+    <string name="txtLoginDoctor">Login Doctores</string>
+    <string name="Btn_login_doctor">Ingresar</string>
+    <string name="Longin_doctor_btn">Ingresar como doctor</string>
+    <string name="Btn_agregar_categoria">Agregar tipo de enfermedad</string>
+    <string name="Txt_agregar_categoria">Agregar tipo de enfermedad</string>
+    <string name="Et_tipo_enfermedad">Ingrese el tipo de enfermedad</string>
+    <string name="Agregar_tipo_enfermedad_BD">Agregar</string>
+    <string name="Item_nombre_tipo_enfer">Nombre tipo de enfermedad</string>
+    <string name="Buscar_tipo_enfer">Buscar</string>
+    <string name="Txt_agregar_enfermedad">Agregar enfermedad</string>
+    <string name="Et_nombre_enfermedad">Nombre de enfermedad</string>
+    <string name="Et_descripción_libro">Descripción</string>
+    <string name="Tv_tipo_enfermedad">Tipo enfermedad</string>
+    <string name="Btn_subir_enfermedad">Subir</string>
+    <string name="Txt_nombre_enfer">Enfermedades</string>
+    <string name="Txt_tipo_enfer">Tipo de enfermedad</string>
+    <string name="Et_buscar_enfer_doctor">Buscar enfermedad</string>
+    <string name="Txt_descripcion_enfer_item">Descripcion de enfermedad</string>
+    <string name="Txt_tipo_enfer_doctor">Tipo de enfermedad</string>
+    <string name="Txt_tamanio_enfer_doctor">5MB</string>
+    <string name="Txt_fecha_enfer_doctor">dd/mm/yyyy</string>
+    <string name="Btn_enfermedades">Biblioteca enfermedades</string>
+    <string name="Btn_medicamentos">Biblioteca medicamento</string>
+    <string name="Item_nombre_medi_doctor">Nombre tipo de medicamento</string>
+    <string name="Btn_agregar_tipo_medi">Agregar tipo de medicamento</string>
+    <string name="Txt_agregar_medi">Agregar medicamentos</string>
+    <string name="Et_nombre_medi">Nombre de medicamento</string>
+    <string name="Tv_tipo_medi">Tipo de medicamento</string>
+    <string name="Txt_nombre_medi">Medicamentos</string>
+    <string name="Txt_descripcion_medi">Descripción de medicamentos</string>
+    <string name="Txt_tipo_medi">Tipo de medicamento</string>
+    <string name="Et_buscar_medi_doctor">Buscar medicamentos</string>
+    <string name="Btn_actualizar_enfer">Actualizar</string>
+    <string name="Txt_actualizar_enfer">Actualizar enfermedad</string>
+    <string name="Txt_actualizar_medi">Actualizar medicamento</string>
+    <string name="Txt_detalle_enfer">Detalle enfermedad</string>
+    <string name="nombre_enferD">Nombre enfermedad</string>
+    <string name="Txt_tipo_enfe_D">Tipo de enfermedad: </string>
+    <string name="tipo_enfer_D">--</string>
+    <string name="Txt_fecha">Fecha: </string>
+    <string name="fecha">--</string>
+    <string name="Txt_tamanio">Tamaño: </string>
+    <string name="tamanio">--</string>
+    <string name="Txt_hojas">Nro páginas: </string>
+    <string name="hojas">--</string>
+    <string name="TXt_descripcion_enfer_D">Descripción: </string>
+    <string name="descripcion">--</string>
+    <string name="Btn_leer_enfermedad">Leer</string>
+    <string name="Txt_leer_enfer">Lectura de pdf</string>
+    <string name="nombres_doctor">Nombres: </string>
+    <string name="Txt_nombres_doctor"> -- </string>
+    <string name="email_doctor">Email: </string>
+    <string name="Txt_email_doctor"> -- </string>
+    <string name="tiempo_registro_doctor">Miembro desde: </string>
+    <string name="Txt_tiempo_registro_doctor"> -- </string>
+    <string name="rol_doctor">Rol: </string>
+    <string name="Txt_rol_doctor"> -- </string>
+    <string name="Txt_mas_opciones">Más opciones: </string>
+    <string name="EditarPerfil_doctor">Editar Perfil</string>
+    <string name="Txt_editar_perfil_doctor">Editar Perfil</string>
+    <string name="Et_a_nombres">Nombres</string>
+    <string name="Btn_actualizar_info">Actualizar</string>
+    <string name="Txt_detalle_medi">Detalle medicamento</string>
+    <string name="nombre_mediD">Nombre medicamento</string>
+    <string name="Txt_tipo_mediD">Tipo de medicamento</string>
+    <string name="Txt_registro_paciente">Registro de paciente</string>
+    <string name="Et_edad_paciente">Edad</string>
+    <string name="Txt_Login_Paciente">Login Paciente</string>
+    <string name="Login_paciente_btn">Ingresar como paciente</string>
+    <string name="Txt_elegir_biblioteca">Elegir biblioteca</string>
+    <string name="Btn_enfer">Enfermedades</string>
+    <string name="Btn_medi">Medicamentos</string>
+    <string name="Agregar_usuario">Agregar Usuarios</string>
+    <string name="Et_num_document">Número de documento</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+
+
+
+    <!--      Here come strings which are not contained in the AOSP -->
+    <string name="alarm_delete_on_dismiss">Delete after dismissed</string>
+    <string-array name="fade_in_time_sec_values" tools:ignore="MissingTranslation">
+        <item>1</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+    </string-array>
+    <!-- Setting labels on Set alarm screen: Prealarm -->
+    <string name="alarm_prealarm">Gentle pre-alarm</string>
+    <!-- Pre-alarm duration title -->
+    <string name="prealarm_duration_title" tools:ignore="MissingTranslation">Pre-alarm duration</string>
+    <!--
+         Entries listed in the ListPreference when invoking the pre-alarm duration
+         preference.
+    -->
+    <string-array name="prealarm_duration_entries">
+        <item>Off</item>
+        <item>10 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>60 minutes</item>
+    </string-array>
+    <!--
+         Values that are retrieved from the ListPreference. These must match
+         the prealarm_duration_entries above.
+    -->
+    <string-array name="prealarm_duration_values" tools:ignore="MissingTranslation">
+        <item>-1</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+    <!-- Pre-alarm duration summary string set based on the preference value. -->
+    <string name="prealarm_summary">Pre-alarm will start
+<xliff:g id="minutes">%d</xliff:g> minutes before the main alarm</string>
+    <string name="info_fragment_prealarm_summary"><xliff:g id="minutes">%d</xliff:g> minutes pre-alarm</string>
+    <string name="prealarm_off_summary">Pre-alarm is switched off</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_bugreport">Send a bugreport</string>
+    <string name="dialog_say_thanks_review_button">Rate the app</string>
+    <string name="dialog_bugreport_hint">Describe your complaint here</string>
+    <string name="longclick_dismiss_title">Longclick dismiss</string>
+    <string name="longclick_dismiss_summary">Hold the dismiss button to dismiss the alarm</string>
+    <string name="fade_in_time_sec_title" tools:ignore="MissingTranslation">Fade-in duration</string>
+    <string-array name="fade_in_time_sec_entries">
+        <item>Off</item>
+        <item>10 seconds</item>
+        <item>20 seconds</item>
+        <item>30 seconds</item>
+        <item>60 seconds</item>
+        <item>120 seconds</item>
+    </string-array>
+    <string name="fade_in_summary">Fade-in duration is <xliff:g id="seconds">%d</xliff:g> seconds</string>
+    <string name="fade_in_off_summary">Fade-in is switched off</string>
+    <string-array name="alarm_set_short">
+        <item>Less than a minute from now</item>
+        <item><xliff:g example="2 days" id="DAYS">%1$s</xliff:g></item>
+        <item><xliff:g example="2 hours" id="HOURS">%2$s</xliff:g></item>
+        <item><xliff:g example="2 days" id="DAYS">%1$s</xliff:g> and <xliff:g example="2 hours" id="HOURS">%2$s</xliff:g></item>
+        <item><xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g></item>
+        <item><xliff:g example="2 days" id="DAYS">%1$s</xliff:g> and <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g></item>
+        <item><xliff:g example="2 hours" id="HOURS">%2$s</xliff:g> and <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g></item>
+        <item><xliff:g example="2 days" id="DAYS">%1$s</xliff:g>, <xliff:g example="2 hours" id="HOURS">%2$s</xliff:g>, and <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g></item>
+    </string-array>
+
+    <string name="theme_title">Interface theme</string>
+    <string-array name="themes_entries">
+        <item>Neon</item>
+        <item>Light</item>
+        <item>Synth</item>
+        <item>Deus Ex</item>
+        <item>Abyss</item>
+    </string-array>
+    <string-array name="themes_values">
+        <item>dark</item>
+        <item>light</item>
+        <item>synthwave</item>
+        <item>deusex</item>
+        <item>deepblue</item>
+    </string-array>
+    <string name="preference_list_row_layout_title">Layout style</string>
+    <string-array name="preference_list_row_layout_entries">
+        <item>Compact</item>
+        <item>Bold</item>
+        <item>Classic</item>
+    </string-array>
+    <string-array name="preference_list_row_layout_values">
+        <item>compact</item>
+        <item>bold</item>
+        <item>classic</item>
+    </string-array>
+
+    <string name="simple_alarm_clock">Simple Alarm Clock</string>
+    <!--
+     Entries listed in the ListPreference when invoking the snooze duration
+     preference.
+ -->
+    <string-array name="snooze_duration_with_off_entries">
+        <item>Off</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <!--
+         Values that are retrieved from the ListPreference. These must match
+         the snooze_duration_entries above.
+    -->
+    <string-array name="snooze_duration_with_off_values">
+        <item>-1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string name="alarm_alert_reschedule_text">Reschedule</string>
+    <string name="alarm_alert_hold_the_button_text">Hold the button!</string>
+
+    <string name="preference_category_sound">Volumes and sound</string>
+    <string name="preference_category_ui">User interface</string>
+    <string name="preference_category_durations">Durations</string>
+    <string name="details_no_ringtone_picker">No Ringtone provider found…</string>
+    <string name="permissions_external_storage_text">It seems that we cannot play %s, probably because a permission is required. If you want, you can grant the permission. Alternatively, select a different sound. This decision can be changed in System Settings.</string>
+    <string name="menu_about_title">About</string>
+    <string name="dialog_about_content">Simple Alarm Clock makes setting an alarm simple.
+
+       It is an open source project maintained by software professionals in their free time.
+
+       \n\nTips:
+       \n· You can change the appearance by pulling up customization drawer
+
+       \n\nNew in this version:
+       \n· Customization drawer
+       \n· New color themes
+       \n· Some internal rework
+       \n· Minor bugfixes
+
+       \n· <a href="https://github.com/yuriykulikov/AlarmClock">Learn more on GitHub</a>
+
+       \n\nIf you wish to support us:
+       \n· <a href="https://play.google.com/store/apps/details?id=com.premium.alarm">Install our premium version!</a>
+   </string>
+    <string name="dialog_bugreport_faq"><b>Common issues and how to fix them</b>
+       \n\n<font color="#FF0000">If there is no sound</font>, please check your device sound settings, and make sure alarms are enabled in "Do not disturb" mode.
+
+       \n\n<font color="#FF0000">Most other issues</font> can be resolved by <b>Clearing the cache</b> (App info -> Storage -> Clear cache) or <b>uninstalling and reinstalling the app</b>.
+
+       \n\n<font color="#FF0000">If nothing from helps</font>, please write us a message in the field below. We will do our best to try to help you.
+   </string>
+    <string name="dialog_say_thanks_title">Say thanks</string>
+    <string name="dialog_say_thanks_review_message">Thanks a lot for taking your time to say thanks! “Simple Alarm Clock” is an open source non-profit project. We will never use ads or gather user data to earn money. However, we are extremely happy if you like our work. One of the best ways to say thanks is to write a positive review. You can also ask a question or leave your feature request.</string>
+    <string name="dialog_say_thanks_premium_text">If you like the app, please consider upgrading to the premium version. This will help us a lot!</string>
+    <string name="dialog_say_thanks_premium_text_as_button"><a href="https://play.google.com/store/apps/details?id=com.premium.alarm">Install premium version</a></string>
+
+    <string name="notification_channel_high_prio">Big popup with snooze and dismiss buttons</string>
+    <string name="notification_channel_default_prio">Notification for a snoozed alarm</string>
+    <string name="notification_channel_low_prio">Expired alarm notification</string>
+    <string name="alert_notifications_title">Oh no! Big problem!</string>
+    <string name="alert_notifications_turned_off">
+       All notifications are turned off, including the big popup with snooze and dismiss buttons!
+
+       \n\nClick OK to jump to settings and enable the notifications!</string>
+    <string name="alert_notifications_high_prio_text">
+       Priority of for the big popup with snooze and dismiss buttons is too low to unlock the screen!
+
+       \n\nIt happens if you have disabled and enabled notifications again or changed settings manually.
+
+       \n\nClick OK to jump to system settings and select the highest priority for this notification (Make sound and pop up on screen).
+
+       \n\nIronically, you should set the sound to "none" in advanced settings.</string>
+    <string name="alert_notifications_default_prio_text">
+       Secondary notifications are disabled.
+
+       \n\nIt happens if you have disabled and enabled notifications again or changed settings manually.
+
+       \n\nClick OK to jump to system settings and select the second highest priority for this notification (Make sound).
+
+       \n\nIronically, you should set the sound to "none" in advanced settings.</string>
+    <string name="date">Date</string>
+    <string name="alert_permission_post_notifications_title">Permission to show notifications</string>
+    <string name="alert_permission_post_notifications_text">To display a popup when the alarm rings, permission to show notifications is required.</string>
+    <string name="app_default_ringtone">App default (%s)</string>
+    <string name="set_exact_alarm_permission_title">Permission to set exact alarm time</string>
+    <string name="set_exact_alarm_permission_text">To set an alarm at the exact time, permission to set exact alarm time is required.</string>
+
+
+
+
+
+
+    <!--  -->
+    <!-- Label shown on launcher icon -->
+
+    <!-- Title for AlarmClock activity -->
+    <skip />
+
+    <!-- Menu item on Alarm Clock screen: Add alarm -->
+    <skip />
+
+    <!-- Menu item on Alarm Clock screen: Desk clock -->
+
+    <!-- Menu item on Alarm Clock screen: Edit alarm -->
+
+    <!-- Context Menu Item on Alarm Settings screen: Delete alarm -->
+    <string name="alarm_list_title">Alarms</string>
+
+    <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
+    <string name="add_alarm">Add alarm</string>
+
+    <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
+    <string name="delete_alarm">Delete alarm</string>
+
+    <!-- Delete alarm confirmation dialog message. -->
+    <string name="enable_alarm">Turn alarm on</string>
+
+    <!-- Menu item on Alarm Clock screen: Show clock -->
+
+    <!-- Menu item on Alarm Clock screen: Hide clock -->
+
+    <!-- Setting label on Set alarm screen: Label -->
+    <string name="disable_alarm">Turn alarm off</string>
+
+    <!-- Default label to display for an alarm -->
+
+    <!-- Preference category on Alarm Settings screen: Set alarm -->
+
+    <!-- Setting labels on Set alarm screen: Vibration on or off -->
+    <string name="delete_alarm_confirm">Delete this alarm?</string>
+
+    <!-- Setting labels on Set alarm screen: Repeat -->
+    <string name="label">Label</string>
+
+    <!-- Setting labels on Set alarm screen: Select alarm ringtone -->
+    <string name="alarm_vibrate">Vibrate</string>
+
+    <!-- Setting labels on Set alarm screen: Set time -->
+
+    <!-- Button labels on the alarm dialog: Dismiss -->
+    <string name="alarm_repeat">Repeat</string>
+
+    <!--
+         Alarm Alert screen: this message is shown after an alarm rung
+         unattended for a number of minutes.  It tells the user that
+         the alarm has been silenced.
+    -->
+    <string name="alert">Ringtone</string>
+
+    <!-- Button labels on the alarm dialog: Snooze -->
+    <string name="alarm_alert_dismiss_text">Dismiss</string>
+
+    <!--
+         Toast that appears after Alarm is snoozed from the Alarm
+         dialog. Says the alarm will snooze for xxx minutes.
+    -->
+    <string name="alarm_alert_alert_silenced">Alarm silenced after <xliff:g id="minutes">%d</xliff:g> minutes.</string>
+
+    <!--
+         0: nothing
+         1: days
+         2:      hours
+         3: days hours
+         4:            minutes
+         5: days       minutes
+         6:      hours minutes
+         7: days hours minutes
+    -->
+    <string name="alarm_alert_snooze_text">Snooze</string>
+
+    <!--
+         Alarm confirmation toast: Describes how long from now until
+         alarm fires
+    -->
+    <string name="alarm_alert_snooze_set">Snoozing for <xliff:g id="minutes">%d</xliff:g> minutes.</string>
+
+    <!-- Alarm confirmation toast: singular day -->
+    <string name="day">"1 day"</string>
+
+    <!-- Alarm confirmation toast: plural days -->
+    <string name="days">"<xliff:g id="days">%s</xliff:g> days"</string>
+
+    <!-- Alarm confirmation toast: singular hour -->
+    <string name="hour">1 hour</string>
+
+    <!-- Alarm confirmation toast: plural hours -->
+    <string name="hours"><xliff:g id="hours">%s</xliff:g> hours</string>
+
+    <!-- Alarm confirmation toast: singular minute -->
+    <string name="minute">"1 minute"</string>
+
+    <!-- Alarm confirmation toast: plural minutes -->
+    <string name="minutes">"<xliff:g id="minutes">%s</xliff:g> minutes"</string>
+
+    <!--
+         Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to repeat every day
+    -->
+    <string name="every_day">Every day</string>
+
+    <!--
+         Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: special case for when
+         the alarm is set to never repeat
+    -->
+    <string name="never">Never</string>
+
+    <!--
+         Repeat options that appear under an alarm on main Alarm Clock
+         screen to identify repetition schedule: concatenate days with
+         this character, i.e. "Mon, Tue, Wed"
+    -->
+    <string name="day_concat">", "</string>
+
+    <!--
+         Appears at the top of the Clock Picker screen: Tell user to
+         select a clock to display
+    -->
+
+    <!-- Label for analog clock gadget, shown in list of all gadgets -->
+
+    <!-- Menu item title for general Alarm Clock Settings -->
+    <string name="settings">Settings</string>
+
+    <!--
+         Setting title for whether the alarm should play in silent mode.
+         Usually, silent mode only affects the ringer, but this setting
+         will make the alarms respect silent mode too.
+    -->
+    <string name="alarm_in_silent_mode_title">Alarm in silent mode</string>
+
+    <!-- Setting summary for whether the alarm should play in silent mode. -->
+    <string name="alarm_in_silent_mode_summary">Play alarm even when the phone is in silent mode</string>
+
+    <!-- Setting title for changing the snooze duration. -->
+    <string name="snooze_duration_title">Snooze duration</string>
+
+    <!--
+         Entries listed in the ListPreference when invoking the snooze duration
+         preference.
+    -->
+
+    <!--
+         Values that are retrieved from the ListPreference. These must match
+         the snooze_duration_entries above.
+    -->
+
+    <!-- Auto silence preference title -->
+    <string name="auto_silence_title">Auto-silence</string>
+
+    <!-- Auto silence summary string set based on the preference value. -->
+    <string name="auto_silence_summary">Alarms will silence after
+<xliff:g id="minutes">%d</xliff:g> minutes</string>
+
+    <!-- Auto silence summary when turned off -->
+    <string name="auto_silence_never">Off</string>
+
+    <!--
+         Entries listed in the ListPreference when invoking the auto silence
+         preference.
+    -->
+    <string name="delete">Delete</string>
+
+    <!--
+         Values that are retrieved from the ListPreference. These must match
+         the auto_silence_entries above.
+    -->
+    <string name="alarm_volume_title">Alarm volume</string>
+
+    <!-- Done button when editing an alarm. -->
+
+    <!-- Revert button when editing an alarm. -->
+
+    <!-- Delete button when editing an alarm. -->
+    <string name="alarm_volume_summary">Set the volume of alarms</string>
+
+    <!-- Setting title for changing the alarm volume. -->
+    <string name="silent_alarm_summary">Silent</string>
+
+    <!-- Setting summary for changing the alarm volume. -->
+    <string name="alarm_notify_text">Snooze or dismiss alarm.</string>
+
+    <!-- Summary for the alarm preference when silent is chosen. -->
+    <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g> (snoozed)</string>
+
+    <!-- Text to display in the small text of the notification -->
+    <string name="alarm_notify_snooze_text">Alarm set for <xliff:g id="time">%s</xliff:g>. Touch to cancel.</string>
+
+    <!-- Text to display in the notification ticker and label -->
+    <string name="volume_button_dialog_title">Button effect</string>
+
+    <!-- Text to display in the notification when the alarm has been snoozed -->
+    <string name="volume_button_setting_summary">Set what these buttons do when pressed during an alarm</string>
+
+    <!--
+         Title of the setting to change hardware button behavior. This string
+         should be changed for each piece of hardware. [CHAR LIMIT=20]
+    -->
+
+    <!-- Dialog title of the volume and power setting. -->
+    <string name="default_ringtone_setting_title">Set default ringtone</string>
+
+    <!-- The summary of the side button setting. -->
+    <string name="alarm_klaxon_service_desc">Sound playback service for alarms set in Clock.</string>
+
+    <!-- Entries listed in the setting for the side-button action. -->
+    <string name="time_picker_ampm_label" translatable="false">--</string>
+
+    <!-- Values for the side-button setting. -->
+    <string name="time_picker_00_label" translatable="false" tools:ignore="MissingTranslation">:00</string>
+
+    <!-- Title of the ringtone setting. -->
+    <string name="time_picker_30_label" translatable="false" tools:ignore="MissingTranslation">:30</string>
+
+    <!-- Accessibility labels for Clock activity buttons -->
+    <string-array name="alarm_set">
+        <item>Alarm set for less than 1 minute from now.</item>
+        <item>Alarm set for <xliff:g example="2 days" id="DAYS">%1$s</xliff:g> from now.</item>
+        <item>Alarm set for <xliff:g example="2 hours" id="HOURS">%2$s</xliff:g> from now.</item>
+        <item>Alarm set for <xliff:g example="2 days" id="DAYS">%1$s</xliff:g> and <xliff:g example="2 hours" id="HOURS">%2$s</xliff:g> from now.</item>
+        <item>Alarm set for <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g> from now.</item>
+        <item>Alarm set for <xliff:g example="2 days" id="DAYS">%1$s</xliff:g> and <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g> from now.</item>
+        <item>Alarm set for <xliff:g example="2 hours" id="HOURS">%2$s</xliff:g> and <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g> from now.</item>
+        <item>Alarm set for <xliff:g example="2 days" id="DAYS">%1$s</xliff:g>, <xliff:g example="2 hours" id="HOURS">%2$s</xliff:g>, and <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g> from now.</item>
+    </string-array>
+
+    <!-- A short representation of charging information, e.g "34%" -->
+
+    <!--
+         What to show the user if the weather widget exists but fails to
+         respond. This is a sign of an error; if the weather widget is not
+         present on the device, we show nothing at all.
+    -->
+    <string-array name="auto_silence_entries">
+        <item>Off</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <!-- Textual content of the button to discard the current dialog values and close the dialog -->
+    <!-- Textual content of the button to update an alarm with the current dialog values -->
+    <!-- place holder for am/pm label when it is not set -->
+    <string-array name="auto_silence_values" translatable="false">
+        <item>-1</item>
+        <!-- Off -->
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <!-- add 00 as minutes to the time when pressing this button -->
+    <string-array name="volume_button_setting_entries">
+        <item>None</item>
+        <item>Snooze</item>
+        <item>Dismiss</item>
+    </string-array>
+    <!-- add 30 as minutes to the time when pressing this button -->
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+
+
+
+
+    <string name="skip">Skip</string>
+    <string name="notification_alarm_is_about_to_go_off">Alarm is about to go off on</string>
+    <string name="skip_duration_title">Skip alarm notification</string>
+    <string-array name="skip_duration_entries">
+        <item>Off</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+    </string-array>
+    <string-array name="skip_duration_values">
+        <item>-1</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+
+
+
+
+</resources>
